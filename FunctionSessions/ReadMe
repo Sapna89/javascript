@@ -1,0 +1,12 @@
+Interview Questions
+what is hoisting in JS?
+if a function is defined using function declaration then that function can be called before its definition.
+eg: name();
+function name() {
+    console.log('sapna');    
+}
+
+But we cant do the same if we define the function using function expression
+we get reference error. its the major difference between defining a function using funtion declaration and function expression.
+
+HOISTING in JAVASCRIPT is: The process of moving function declarations to the top of the file by javascript engine that execute this code.
